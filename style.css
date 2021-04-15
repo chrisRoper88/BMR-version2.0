@@ -1,0 +1,76 @@
+/*
+colours
+
+#00999d;
+#212121;
+#ffffff;
+
+*/
+
+body {
+    margin: 0;
+    padding: 0;
+    background: #212121;
+    font-family: 'Comfortaa', cursive;
+}
+
+header {
+    font-size: 1em;
+    padding: 0.75em;
+    background: #ffffff;
+    text-align: center;
+    margin-bottom: 1em;
+}
+
+main {
+    padding: 0.5em;
+    font-size: 1.5em;
+    color: #00999d;
+    text-align: center;
+    background: #F5F5F5;
+    margin: auto;
+    width: 65%;
+    border-radius: 3%;
+}
+
+form {
+    box-sizing: border-box;
+}
+
+form label{
+    font-size: 0.75em;
+}
+
+form input {
+    display: block;
+    margin: auto;
+    width: 35%;
+    padding: 0.25em;
+    text-align: center;
+    font-size: 0.75em;
+}
+
+form button {
+    width: 35%;
+    background-color: #00999d; 
+    color: #ffffff;
+    padding: 0.5em;
+    margin: 0.5em;
+    border-radius: 5%;
+    font-size: 0.55em;
+}
+
+footer {
+    background: #00999d;
+    color: #ffffff;
+    padding: 0.25em;
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+    text-align: center;
+}
+
+footer p {
+    font-size: 1em;
+}
+
